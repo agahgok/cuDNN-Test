@@ -25,6 +25,6 @@ def cudnn_performance_test():
     end_time = time.time()
 
     training_time = end_time - start_time
-    print(f"CuDNN performans testi tamamlandı! Eğitim süresi: {training_time:.2f} saniye")
+    print(f"CuDNN performance testing is complete! Training time: {training time:.2f} seconds")
 
 cudnn_performance_test()
